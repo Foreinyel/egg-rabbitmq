@@ -1,6 +1,6 @@
 # egg-rabbitmq
 
-[![NPM version][npm-image]][npm-url]
+<!-- [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
@@ -8,7 +8,7 @@
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/egg-rabbitmq.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-rabbitmq
+[npm-url]: https://npmjs.org/package/@hemyn/egg-rabbitmq
 [travis-image]: https://img.shields.io/travis/eggjs/egg-rabbitmq.svg?style=flat-square
 [travis-url]: https://travis-ci.org/eggjs/egg-rabbitmq
 [codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-rabbitmq.svg?style=flat-square
@@ -17,8 +17,8 @@
 [david-url]: https://david-dm.org/eggjs/egg-rabbitmq
 [snyk-image]: https://snyk.io/test/npm/egg-rabbitmq/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-rabbitmq
-[download-image]: https://img.shields.io/npm/dm/egg-rabbitmq.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-rabbitmq
+[download-image]: https://img.shields.io/npm/dm/@hemyn/egg-rabbitmq.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@hemyn/egg-rabbitmq -->
 
 <!--
 Description here.
@@ -56,7 +56,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/Foreinyel/egg-rabbitmq/issues).
 
 ## License
 
