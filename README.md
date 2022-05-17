@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-rabbitmq --save
+$ npm i @hemyn/egg-rabbitmq --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-rabbitmq --save
 // {app_root}/config/plugin.js
 exports.rabbitmq = {
   enable: true,
-  package: 'egg-rabbitmq',
+  package: '@hemyn/egg-rabbitmq',
 };
 ```
 
@@ -45,6 +45,35 @@ exports.rabbitmq = {
 ```js
 // {app_root}/config/config.default.js
 exports.rabbitmq = {
+  address: "amqp://localhost:5672",
+  queues: [
+    {
+      queue: "log1",
+      queueOption: {
+        durable: true,
+      },
+      exchange: "logs",
+      exchangeOption: {
+        type: "fanout",
+        durable: true,
+      },
+      consumer: "",
+      consumerOption: {},
+    },
+    {
+      queue: "log2",
+      queueOption: {
+        durable: true,
+      },
+      exchange: "logs",
+      exchangeOption: {
+        type: "fanout",
+        durable: true,
+      },
+      consumer: "",
+      consumerOption: {},
+    },
+  ],
 };
 ```
 

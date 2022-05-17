@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-const mock = require('egg-mock');
+const mock = require("egg-mock");
 
-describe('test/rabbitmq.test.js', () => {
+describe("test/rabbitmq.test.js", () => {
   let app;
   before(() => {
     app = mock.app({
-      baseDir: 'apps/rabbitmq-test',
+      baseDir: "apps/rabbitmq-test",
     });
     return app.ready();
   });
@@ -14,10 +14,7 @@ describe('test/rabbitmq.test.js', () => {
   after(() => app.close());
   afterEach(mock.restore);
 
-  it('should GET /', () => {
-    return app.httpRequest()
-      .get('/')
-      .expect('hi, rabbitmq')
-      .expect(200);
+  it("should GET /", () => {
+    return app.httpRequest().get("/").expect("hi, rabbitmq").expect(200);
   });
 });
