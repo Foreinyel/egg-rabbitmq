@@ -8,7 +8,7 @@ module.exports = class AgentBootHook {
     this.app = app;
   }
 
-  async willReady() {
+  async serverDidReady() {
     await bootstrap(this.app);
   }
 
