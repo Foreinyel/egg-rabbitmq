@@ -1,6 +1,6 @@
 {
   "name": "@hemyn/egg-rabbitmq",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "rabbitmq client for egg",
   "eggPlugin": {
     "name": "rabbitmq"
